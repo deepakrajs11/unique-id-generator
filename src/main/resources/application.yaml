@@ -1,3 +1,18 @@
 spring:
   application:
     name: unique-id-generator
+
+server:
+  port: 8080
+
+id-generator:
+  algorithm: twitter-snowflake
+  worker-id: 1
+  datacenter-id: 1
+  custom-epoch: 1704067200000
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info

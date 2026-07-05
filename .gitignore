@@ -57,6 +57,11 @@ application-prod.properties
 out/
 
 # ===========================
+# Gradle (legacy, project uses Maven)
+# ===========================
+.gradle/
+
+# ===========================
 # Eclipse
 # ===========================
 .project
